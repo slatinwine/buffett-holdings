@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>巴菲特持仓分析 · 伯克希尔 13F 组合追踪</title>
+<link rel="stylesheet" href="style.css">
+<script src="https://cdn.jsdelivr.net/npm/echarts@5/dist/echarts.min.js"></script>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <div class="eyebrow">BERKSHIRE HATHAWAY · PORTFOLIO TRACKER</div>
+    <h1>巴菲特持仓分析</h1>
+    <div class="sub">追踪伯克希尔·哈撒韦美股组合：SEC 13F 季度持仓 + 每日行情估值</div>
+    <div class="meta-row" id="metaRow">
+      <span class="tag">数据加载中…</span>
+    </div>
+    <div class="visitor-bar" id="visitorBar">
+      <span class="vb-label">访客统计</span>
+      <span class="vb-item">独立访客 <b id="busuanzi_value_site_uv" class="vb-num">—</b></span>
+      <span class="vb-sep">·</span>
+      <span class="vb-item">累计访问 <b id="busuanzi_value_site_pv" class="vb-num">—</b></span>
+      <span class="vb-sep">·</span>
+      <span class="vb-item">本页浏览 <b id="busuanzi_value_page_pv" class="vb-num">—</b></span>
+      <span class="vb-note">（按 IP 去重）</span>
+    </div>
+  </header>
+
+  <div id="app">
+    <div class="loading">正在载入持仓数据…</div>
+  </div>
+
+  <footer>
+    <div id="sourceInfo"></div>
+    <div class="disc">
+      <strong>免责声明</strong>：以上内容基于公开数据和量化分析，仅供参考，不构成投资建议。市场有风险，投资需谨慎。任何投资决策应结合个人风险承受能力、资金状况和投资目标独立判断，必要时咨询持牌专业机构。过往表现不预示未来收益。
+    </div>
+  </footer>
+
+</div>
+<script src="app.js"></script>
+<!-- 不蒜子访客统计：按 IP 去重统计独立访客(UV)与访问量(PV)，零配置、GitHub Pages 原生支持 -->
+<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+<script>
+  // 若 8 秒内统计服务未响应（网络问题/被拦截），隐藏统计条以免影响主应用
+  setTimeout(function () {
+    var uv = document.getElementById('busuanzi_value_site_uv');
+    if (uv && (uv.textContent === '—' || uv.textContent === '')) {
+      var bar = document.getElementById('visitorBar');
+      if (bar) bar.style.display = 'none';
+    }
+  }, 8000);
+</script>
+</body>
+</html>

@@ -1,0 +1,537 @@
+{
+  "updatedAt": "2026-11-21T00:49:22.979Z",
+  "reportDate": "2026-09-30",
+  "filingDate": "2026-11-16",
+  "accession": "0001193125-26-463399",
+  "quoteTime": "Nov 20, 2026 7:49 PM ET",
+  "source": {
+    "holdings": "SEC EDGAR Form 13F-HR (CIK 0001067983)",
+    "prices": "Nasdaq official quote API"
+  },
+  "summary": {
+    "count": 27,
+    "totalReport": 304196581325,
+    "totalCurrent": 303673593642.44714,
+    "totalDayChange": 1537061384.5321996,
+    "dayChangePct": 0.5087307294637602
+  },
+  "holdings": [
+    {
+      "name": "苹果",
+      "en": "Apple Inc.",
+      "ticker": "AAPL",
+      "sector": "科技",
+      "classes": [
+        "AAPL"
+      ],
+      "cusips": [
+        "037833100"
+      ],
+      "shares": 227917808,
+      "reportValue": 75901188420,
+      "price": 345,
+      "changePct": 0.71,
+      "quoteTs": "Nov 20, 2026 7:49 PM ET",
+      "currentValue": 78631643760,
+      "dayChange": 556119451.52
+    },
+    {
+      "name": "美国运通",
+      "en": "American Express",
+      "ticker": "AXP",
+      "sector": "金融",
+      "classes": [
+        "AXP"
+      ],
+      "cusips": [
+        "025816109"
+      ],
+      "shares": 151610700,
+      "reportValue": 46104813870,
+      "price": 303.47,
+      "changePct": 0.58,
+      "quoteTs": "Nov 20, 2026 7:49 PM ET",
+      "currentValue": 46009299129.00001,
+      "dayChange": 266834832
+    },
+    {
+      "name": "可口可乐",
+      "en": "Coca-Cola",
+      "ticker": "KO",
+      "sector": "消费",
+      "classes": [
+        "KO"
+      ],
+      "cusips": [
+        "191216100"
+      ],
+      "shares": 400000000,
+      "reportValue": 34432000000,
+      "price": 96.8,
+      "changePct": -0.2,
+      "quoteTs": "Nov 20, 2026 7:49 PM ET",
+      "currentValue": 38720000000,
+      "dayChange": -76000000
+    },
+    {
+      "name": "谷歌",
+      "en": "Alphabet",
+      "ticker": "GOOGL",
+      "sector": "科技",
+      "classes": [
+        "GOOG",
+        "GOOGL"
+      ],
+      "cusips": [
+        "02079K107",
+        "02079K305"
+      ],
+      "shares": 105979600,
+      "reportValue": 36374651401,
+      "price": 270.0897,
+      "changePct": 1.81,
+      "quoteTs": "Nov 20, 2026 7:49 PM ET",
+      "currentValue": 28623998370.12,
+      "dayChange": 508670286.11999995
+    },
+    {
+      "name": "美国银行",
+      "en": "Bank of America",
+      "ticker": "BAC",
+      "sector": "金融",
+      "classes": [
+        "BAC"
+      ],
+      "cusips": [
+        "060505104"
+      ],
+      "shares": 455860908,
+      "reportValue": 24812509222,
+      "price": 47.259,
+      "changePct": 0.41,
+      "quoteTs": "Nov 20, 2026 7:49 PM ET",
+      "currentValue": 21543530651.172,
+      "dayChange": 88437016.15200001
+    },
+    {
+      "name": "雪佛龙",
+      "en": "Chevron",
+      "ticker": "CVX",
+      "sector": "能源",
+      "classes": [
+        "CVX"
+      ],
+      "cusips": [
+        "166764100"
+      ],
+      "shares": 84375856,
+      "reportValue": 17230393553,
+      "price": 209.33,
+      "changePct": 0.44,
+      "quoteTs": "Nov 20, 2026 7:49 PM ET",
+      "currentValue": 17662397936.48,
+      "dayChange": 77625787.52000001
+    },
+    {
+      "name": "西方石油",
+      "en": "Occidental Petroleum",
+      "ticker": "OXY",
+      "sector": "能源",
+      "classes": [
+        "OXY"
+      ],
+      "cusips": [
+        "674599105"
+      ],
+      "shares": 264941431,
+      "reportValue": 14656559963,
+      "price": 54.04,
+      "changePct": 0.25,
+      "quoteTs": "Nov 20, 2026 7:49 PM ET",
+      "currentValue": 14317434931.24,
+      "dayChange": 35767093.185
+    },
+    {
+      "name": "安达保险",
+      "en": "Chubb Ltd",
+      "ticker": "CB",
+      "sector": "金融",
+      "classes": [
+        "CB"
+      ],
+      "cusips": [
+        "H1467J104"
+      ],
+      "shares": 34249183,
+      "reportValue": 11139546771,
+      "price": 372.193,
+      "changePct": 0.14,
+      "quoteTs": "Nov 20, 2026 7:49 PM ET",
+      "currentValue": 12747306168.319,
+      "dayChange": 17227339.049
+    },
+    {
+      "name": "穆迪",
+      "en": "Moody’s",
+      "ticker": "MCO",
+      "sector": "金融",
+      "classes": [
+        "MCO"
+      ],
+      "cusips": [
+        "615369105"
+      ],
+      "shares": 24669778,
+      "reportValue": 11203286284,
+      "price": 465.09,
+      "changePct": -0.36,
+      "quoteTs": "Nov 20, 2026 7:49 PM ET",
+      "currentValue": 11473667050.019999,
+      "dayChange": -41938622.6
+    },
+    {
+      "name": "卡夫亨氏",
+      "en": "Kraft Heinz",
+      "ticker": "KHC",
+      "sector": "消费",
+      "classes": [
+        "KHC"
+      ],
+      "cusips": [
+        "500754106"
+      ],
+      "shares": 325634818,
+      "reportValue": 7398423065,
+      "price": 25.3509,
+      "changePct": -0.27,
+      "quoteTs": "Nov 20, 2026 7:49 PM ET",
+      "currentValue": 8255135707.6362,
+      "dayChange": -22501365.9238
+    },
+    {
+      "name": "达美航空",
+      "en": "Delta Air Lines",
+      "ticker": "DAL",
+      "sector": "工业",
+      "classes": [
+        "DAL"
+      ],
+      "cusips": [
+        "247361702"
+      ],
+      "shares": 64450000,
+      "reportValue": 5378997000,
+      "price": 80.8,
+      "changePct": 0.97,
+      "quoteTs": "Nov 20, 2026 7:49 PM ET",
+      "currentValue": 5207560000,
+      "dayChange": 50271000
+    },
+    {
+      "name": "DaVita",
+      "en": "DaVita Inc.",
+      "ticker": "DVA",
+      "sector": "医疗",
+      "classes": [
+        "DVA"
+      ],
+      "cusips": [
+        "23918K108"
+      ],
+      "shares": 28697229,
+      "reportValue": 5019719296,
+      "price": 161.03,
+      "changePct": 0,
+      "quoteTs": "Nov 20, 2026 7:49 PM ET",
+      "currentValue": 4621114785.87,
+      "dayChange": 0
+    },
+    {
+      "name": "SiriusXM",
+      "en": "Sirius XM Holdings",
+      "ticker": "SIRI",
+      "sector": "通信",
+      "classes": [
+        "SIRI"
+      ],
+      "cusips": [
+        "829933100"
+      ],
+      "shares": 124807117,
+      "reportValue": 3230008188,
+      "price": 31.4,
+      "changePct": 1.29,
+      "quoteTs": "Nov 20, 2026 7:49 PM ET",
+      "currentValue": 3918943473.7999997,
+      "dayChange": 49922846.800000004
+    },
+    {
+      "name": "克罗格",
+      "en": "Kroger",
+      "ticker": "KR",
+      "sector": "消费",
+      "classes": [
+        "KR"
+      ],
+      "cusips": [
+        "501044101"
+      ],
+      "shares": 35000000,
+      "reportValue": 2051700000,
+      "price": 68.43,
+      "changePct": -0.03,
+      "quoteTs": "Nov 20, 2026 7:49 PM ET",
+      "currentValue": 2395050000.0000005,
+      "dayChange": -700000
+    },
+    {
+      "name": "莱纳建筑",
+      "en": "Lennar",
+      "ticker": "LEN",
+      "sector": "房地产",
+      "classes": [
+        "LEN",
+        "LEN.B"
+      ],
+      "cusips": [
+        "526057104",
+        "526057302"
+      ],
+      "shares": 26587436,
+      "reportValue": 2168384103,
+      "price": 81.2,
+      "changePct": 0.59,
+      "quoteTs": "Nov 20, 2026 7:49 PM ET",
+      "currentValue": 2158899803.2000003,
+      "dayChange": 12761969.28
+    },
+    {
+      "name": "VeriSign",
+      "en": "VeriSign",
+      "ticker": "VRSN",
+      "sector": "科技",
+      "classes": [
+        "VRSN"
+      ],
+      "cusips": [
+        "92343E102"
+      ],
+      "shares": 5922136,
+      "reportValue": 1670101573,
+      "price": 306.92,
+      "changePct": 0.02,
+      "quoteTs": "Nov 20, 2026 7:49 PM ET",
+      "currentValue": 1817621981.1200001,
+      "dayChange": 296106.8
+    },
+    {
+      "name": "Liberty Live",
+      "en": "Liberty Live Holdings",
+      "ticker": "LLYVA",
+      "sector": "通信",
+      "classes": [
+        "LLYVA",
+        "LLYVK"
+      ],
+      "cusips": [
+        "530909100",
+        "530909308"
+      ],
+      "shares": 15573731,
+      "reportValue": 1501530346,
+      "price": 100.02,
+      "changePct": 0,
+      "quoteTs": "Nov 20, 2026 7:49 PM ET",
+      "currentValue": 1557684574.62,
+      "dayChange": 0
+    },
+    {
+      "name": "纽约时报",
+      "en": "New York Times",
+      "ticker": "NYT",
+      "sector": "通信",
+      "classes": [
+        "NYT"
+      ],
+      "cusips": [
+        "650111107"
+      ],
+      "shares": 15700000,
+      "reportValue": 1000090000,
+      "price": 68.62,
+      "changePct": -0.01,
+      "quoteTs": "Nov 20, 2026 7:49 PM ET",
+      "currentValue": 1077334000,
+      "dayChange": -157000
+    },
+    {
+      "name": "Ally Financial",
+      "en": "Ally Financial",
+      "ticker": "ALLY",
+      "sector": "金融",
+      "classes": [
+        "ALLY"
+      ],
+      "cusips": [
+        "02005N100"
+      ],
+      "shares": 27000000,
+      "reportValue": 1015740001,
+      "price": 36.66,
+      "changePct": 0.95,
+      "quoteTs": "Nov 20, 2026 7:49 PM ET",
+      "currentValue": 989819999.9999999,
+      "dayChange": 9315000
+    },
+    {
+      "name": "Bending Spoons",
+      "en": "Bending Spoons",
+      "ticker": null,
+      "sector": "科技",
+      "classes": [],
+      "cusips": [
+        "T19377109"
+      ],
+      "shares": 20689655,
+      "reportValue": 689379305,
+      "price": null,
+      "changePct": null,
+      "quoteTs": null,
+      "currentValue": 689379305,
+      "dayChange": 0
+    },
+    {
+      "name": "路易斯安那太平洋",
+      "en": "Louisiana-Pacific",
+      "ticker": "LPX",
+      "sector": "材料",
+      "classes": [
+        "LPX"
+      ],
+      "cusips": [
+        "546347105"
+      ],
+      "shares": 5664793,
+      "reportValue": 365662388,
+      "price": 72.95,
+      "changePct": 0.01,
+      "quoteTs": "Nov 20, 2026 7:49 PM ET",
+      "currentValue": 413246649.35,
+      "dayChange": 56647.93
+    },
+    {
+      "name": "纽柯钢铁",
+      "en": "Nucor",
+      "ticker": "NUE",
+      "sector": "材料",
+      "classes": [
+        "NUE"
+      ],
+      "cusips": [
+        "670346105"
+      ],
+      "shares": 1580776,
+      "reportValue": 369506390,
+      "price": 242.14,
+      "changePct": 1.04,
+      "quoteTs": "Nov 20, 2026 7:49 PM ET",
+      "currentValue": 382769100.64,
+      "dayChange": 3951940
+    },
+    {
+      "name": "第一资本金融",
+      "en": "Capital One",
+      "ticker": "COF",
+      "sector": "金融",
+      "classes": [
+        "COF"
+      ],
+      "cusips": [
+        "14040H105"
+      ],
+      "shares": 1150000,
+      "reportValue": 222030500,
+      "price": 178.66,
+      "changePct": -0.1,
+      "quoteTs": "Nov 20, 2026 7:49 PM ET",
+      "currentValue": 205459000,
+      "dayChange": -207000
+    },
+    {
+      "name": "梅西百货",
+      "en": "Macy’s",
+      "ticker": "M",
+      "sector": "消费",
+      "classes": [
+        "M"
+      ],
+      "cusips": [
+        "55616P104"
+      ],
+      "shares": 7538800,
+      "reportValue": 171658476,
+      "price": 23.3322,
+      "changePct": 0.63,
+      "quoteTs": "Nov 20, 2026 7:49 PM ET",
+      "currentValue": 175896789.36,
+      "dayChange": 1109711.3599999999
+    },
+    {
+      "name": "NVR",
+      "en": "NVR Inc.",
+      "ticker": "NVR",
+      "sector": "房地产",
+      "classes": [
+        "NVR"
+      ],
+      "cusips": [
+        "62944T105"
+      ],
+      "shares": 11112,
+      "reportValue": 68387582,
+      "price": 5461,
+      "changePct": -0.19,
+      "quoteTs": "Nov 20, 2026 7:49 PM ET",
+      "currentValue": 60682632,
+      "dayChange": -118009.43999999999
+    },
+    {
+      "name": "杰富瑞",
+      "en": "Jefferies Financial",
+      "ticker": "JEF",
+      "sector": "金融",
+      "classes": [
+        "JEF"
+      ],
+      "cusips": [
+        "47233W109"
+      ],
+      "shares": 433558,
+      "reportValue": 19826607,
+      "price": 39.67,
+      "changePct": 1.87,
+      "quoteTs": "Nov 20, 2026 7:49 PM ET",
+      "currentValue": 17199245.86,
+      "dayChange": 316497.33999999997
+    },
+    {
+      "name": "霍顿房屋",
+      "en": "D.R. Horton",
+      "ticker": "DHI",
+      "sector": "房地产",
+      "classes": [
+        "DHI"
+      ],
+      "cusips": [
+        "23331A109"
+      ],
+      "shares": 3564,
+      "reportValue": 487021,
+      "price": 145.51,
+      "changePct": -0.03,
+      "quoteTs": "Nov 20, 2026 7:49 PM ET",
+      "currentValue": 518597.63999999996,
+      "dayChange": -142.56
+    }
+  ]
+}
