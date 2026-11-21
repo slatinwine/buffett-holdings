@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-11-21T00:49:22.979Z",
+  "updatedAt": "2026-11-21T01:50:39.292Z",
   "reportDate": "2026-09-30",
   "filingDate": "2026-11-16",
   "accession": "0001193125-26-463399",
-  "quoteTime": "Nov 20, 2026 7:49 PM ET",
+  "quoteTime": "Nov 19, 2026",
   "source": {
     "holdings": "SEC EDGAR Form 13F-HR (CIK 0001067983)",
     "prices": "Nasdaq official quote API"
@@ -11,9 +11,9 @@
   "summary": {
     "count": 27,
     "totalReport": 304196581325,
-    "totalCurrent": 303673593642.44714,
-    "totalDayChange": 1537061384.5321996,
-    "dayChangePct": 0.5087307294637602
+    "totalCurrent": 306029487084.56494,
+    "totalDayChange": -4340260562.365001,
+    "dayChangePct": -1.3984161134487856
   },
   "holdings": [
     {
@@ -29,11 +29,11 @@
       ],
       "shares": 227917808,
       "reportValue": 75901188420,
-      "price": 345,
-      "changePct": 0.71,
-      "quoteTs": "Nov 20, 2026 7:49 PM ET",
-      "currentValue": 78631643760,
-      "dayChange": 556119451.52
+      "price": 349.21,
+      "changePct": -0.92,
+      "quoteTs": "Nov 19, 2026",
+      "currentValue": 79591177731.68,
+      "dayChange": -738453697.9200001
     },
     {
       "name": "美国运通",
@@ -48,11 +48,11 @@
       ],
       "shares": 151610700,
       "reportValue": 46104813870,
-      "price": 303.47,
-      "changePct": 0.58,
-      "quoteTs": "Nov 20, 2026 7:49 PM ET",
-      "currentValue": 46009299129.00001,
-      "dayChange": 266834832
+      "price": 311.15,
+      "changePct": -1.35,
+      "quoteTs": "Nov 19, 2026",
+      "currentValue": 47173669305,
+      "dayChange": -644345475
     },
     {
       "name": "可口可乐",
@@ -67,11 +67,11 @@
       ],
       "shares": 400000000,
       "reportValue": 34432000000,
-      "price": 96.8,
-      "changePct": -0.2,
-      "quoteTs": "Nov 20, 2026 7:49 PM ET",
-      "currentValue": 38720000000,
-      "dayChange": -76000000
+      "price": 96.1,
+      "changePct": -2.03,
+      "quoteTs": "Nov 19, 2026",
+      "currentValue": 38440000000,
+      "dayChange": -796000000
     },
     {
       "name": "谷歌",
@@ -88,11 +88,11 @@
       ],
       "shares": 105979600,
       "reportValue": 36374651401,
-      "price": 270.0897,
-      "changePct": 1.81,
-      "quoteTs": "Nov 20, 2026 7:49 PM ET",
-      "currentValue": 28623998370.12,
-      "dayChange": 508670286.11999995
+      "price": 272.66,
+      "changePct": -3.46,
+      "quoteTs": "Nov 19, 2026",
+      "currentValue": 28896397736.000004,
+      "dayChange": -1036480487.9999999
     },
     {
       "name": "美国银行",
@@ -107,11 +107,11 @@
       ],
       "shares": 455860908,
       "reportValue": 24812509222,
-      "price": 47.259,
-      "changePct": 0.41,
-      "quoteTs": "Nov 20, 2026 7:49 PM ET",
-      "currentValue": 21543530651.172,
-      "dayChange": 88437016.15200001
+      "price": 48.565,
+      "changePct": -0.71,
+      "quoteTs": "Nov 19, 2026",
+      "currentValue": 22138884997.02,
+      "dayChange": -157272013.26
     },
     {
       "name": "雪佛龙",
@@ -126,11 +126,11 @@
       ],
       "shares": 84375856,
       "reportValue": 17230393553,
-      "price": 209.33,
-      "changePct": 0.44,
-      "quoteTs": "Nov 20, 2026 7:49 PM ET",
-      "currentValue": 17662397936.48,
-      "dayChange": 77625787.52000001
+      "price": 206.6,
+      "changePct": 0.35,
+      "quoteTs": "Nov 19, 2026",
+      "currentValue": 17432051849.6,
+      "dayChange": 60750616.32
     },
     {
       "name": "西方石油",
@@ -145,11 +145,11 @@
       ],
       "shares": 264941431,
       "reportValue": 14656559963,
-      "price": 54.04,
-      "changePct": 0.25,
-      "quoteTs": "Nov 20, 2026 7:49 PM ET",
-      "currentValue": 14317434931.24,
-      "dayChange": 35767093.185
+      "price": 53.81,
+      "changePct": 0.09,
+      "quoteTs": "Nov 19, 2026",
+      "currentValue": 14256498402.11,
+      "dayChange": 13247071.55
     },
     {
       "name": "安达保险",
@@ -164,11 +164,11 @@
       ],
       "shares": 34249183,
       "reportValue": 11139546771,
-      "price": 372.193,
-      "changePct": 0.14,
-      "quoteTs": "Nov 20, 2026 7:49 PM ET",
-      "currentValue": 12747306168.319,
-      "dayChange": 17227339.049
+      "price": 370.175,
+      "changePct": -0.23,
+      "quoteTs": "Nov 19, 2026",
+      "currentValue": 12678191317.025,
+      "dayChange": -28940559.634999998
     },
     {
       "name": "穆迪",
@@ -183,11 +183,11 @@
       ],
       "shares": 24669778,
       "reportValue": 11203286284,
-      "price": 465.09,
-      "changePct": -0.36,
-      "quoteTs": "Nov 20, 2026 7:49 PM ET",
-      "currentValue": 11473667050.019999,
-      "dayChange": -41938622.6
+      "price": 471.765,
+      "changePct": -1.98,
+      "quoteTs": "Nov 19, 2026",
+      "currentValue": 11638337818.17,
+      "dayChange": -234979635.45000002
     },
     {
       "name": "卡夫亨氏",
@@ -202,11 +202,11 @@
       ],
       "shares": 325634818,
       "reportValue": 7398423065,
-      "price": 25.3509,
-      "changePct": -0.27,
-      "quoteTs": "Nov 20, 2026 7:49 PM ET",
-      "currentValue": 8255135707.6362,
-      "dayChange": -22501365.9238
+      "price": 24.95,
+      "changePct": -1.93,
+      "quoteTs": "Nov 19, 2026",
+      "currentValue": 8124588709.099999,
+      "dayChange": -159561060.82
     },
     {
       "name": "达美航空",
@@ -221,11 +221,11 @@
       ],
       "shares": 64450000,
       "reportValue": 5378997000,
-      "price": 80.8,
-      "changePct": 0.97,
-      "quoteTs": "Nov 20, 2026 7:49 PM ET",
-      "currentValue": 5207560000,
-      "dayChange": 50271000
+      "price": 83.18,
+      "changePct": -2,
+      "quoteTs": "Nov 19, 2026",
+      "currentValue": 5360951000,
+      "dayChange": -109565000
     },
     {
       "name": "DaVita",
@@ -240,11 +240,11 @@
       ],
       "shares": 28697229,
       "reportValue": 5019719296,
-      "price": 161.03,
-      "changePct": 0,
-      "quoteTs": "Nov 20, 2026 7:49 PM ET",
-      "currentValue": 4621114785.87,
-      "dayChange": 0
+      "price": 156.29,
+      "changePct": -3.4,
+      "quoteTs": "Nov 19, 2026",
+      "currentValue": 4485089920.41,
+      "dayChange": -157834759.5
     },
     {
       "name": "SiriusXM",
@@ -259,11 +259,11 @@
       ],
       "shares": 124807117,
       "reportValue": 3230008188,
-      "price": 31.4,
-      "changePct": 1.29,
-      "quoteTs": "Nov 20, 2026 7:49 PM ET",
-      "currentValue": 3918943473.7999997,
-      "dayChange": 49922846.800000004
+      "price": 31,
+      "changePct": -3.06,
+      "quoteTs": "Nov 20, 2026",
+      "currentValue": 3869020627,
+      "dayChange": -122310974.66
     },
     {
       "name": "克罗格",
@@ -278,11 +278,11 @@
       ],
       "shares": 35000000,
       "reportValue": 2051700000,
-      "price": 68.43,
-      "changePct": -0.03,
-      "quoteTs": "Nov 20, 2026 7:49 PM ET",
-      "currentValue": 2395050000.0000005,
-      "dayChange": -700000
+      "price": 67.93,
+      "changePct": -1.62,
+      "quoteTs": "Nov 19, 2026",
+      "currentValue": 2377550000.0000005,
+      "dayChange": -39200000.00000001
     },
     {
       "name": "莱纳建筑",
@@ -299,11 +299,11 @@
       ],
       "shares": 26587436,
       "reportValue": 2168384103,
-      "price": 81.2,
-      "changePct": 0.59,
-      "quoteTs": "Nov 20, 2026 7:49 PM ET",
-      "currentValue": 2158899803.2000003,
-      "dayChange": 12761969.28
+      "price": 79.95,
+      "changePct": -3.57,
+      "quoteTs": "Nov 19, 2026",
+      "currentValue": 2125665508.2,
+      "dayChange": -78698810.56
     },
     {
       "name": "VeriSign",
@@ -318,11 +318,11 @@
       ],
       "shares": 5922136,
       "reportValue": 1670101573,
-      "price": 306.92,
-      "changePct": 0.02,
-      "quoteTs": "Nov 20, 2026 7:49 PM ET",
-      "currentValue": 1817621981.1200001,
-      "dayChange": 296106.8
+      "price": 306.45,
+      "changePct": -0.22,
+      "quoteTs": "Nov 19, 2026",
+      "currentValue": 1814838577.2,
+      "dayChange": -3967831.12
     },
     {
       "name": "Liberty Live",
@@ -339,11 +339,11 @@
       ],
       "shares": 15573731,
       "reportValue": 1501530346,
-      "price": 100.02,
-      "changePct": 0,
-      "quoteTs": "Nov 20, 2026 7:49 PM ET",
-      "currentValue": 1557684574.62,
-      "dayChange": 0
+      "price": 101.77,
+      "changePct": -2.29,
+      "quoteTs": "Nov 19, 2026",
+      "currentValue": 1584938603.87,
+      "dayChange": -37221217.09
     },
     {
       "name": "纽约时报",
@@ -358,11 +358,11 @@
       ],
       "shares": 15700000,
       "reportValue": 1000090000,
-      "price": 68.62,
-      "changePct": -0.01,
-      "quoteTs": "Nov 20, 2026 7:49 PM ET",
-      "currentValue": 1077334000,
-      "dayChange": -157000
+      "price": 69.03,
+      "changePct": -2.5,
+      "quoteTs": "Nov 19, 2026",
+      "currentValue": 1083771000,
+      "dayChange": -27789000
     },
     {
       "name": "Ally Financial",
@@ -377,11 +377,11 @@
       ],
       "shares": 27000000,
       "reportValue": 1015740001,
-      "price": 36.66,
-      "changePct": 0.95,
-      "quoteTs": "Nov 20, 2026 7:49 PM ET",
-      "currentValue": 989819999.9999999,
-      "dayChange": 9315000
+      "price": 36.975,
+      "changePct": -1.84,
+      "quoteTs": "Nov 19, 2026",
+      "currentValue": 998325000,
+      "dayChange": -18765000
     },
     {
       "name": "Bending Spoons",
@@ -413,11 +413,11 @@
       ],
       "shares": 5664793,
       "reportValue": 365662388,
-      "price": 72.95,
-      "changePct": 0.01,
-      "quoteTs": "Nov 20, 2026 7:49 PM ET",
-      "currentValue": 413246649.35,
-      "dayChange": 56647.93
+      "price": 73.41,
+      "changePct": -2.09,
+      "quoteTs": "Nov 19, 2026",
+      "currentValue": 415852454.13,
+      "dayChange": -8893725.01
     },
     {
       "name": "纽柯钢铁",
@@ -432,11 +432,11 @@
       ],
       "shares": 1580776,
       "reportValue": 369506390,
-      "price": 242.14,
-      "changePct": 1.04,
-      "quoteTs": "Nov 20, 2026 7:49 PM ET",
-      "currentValue": 382769100.64,
-      "dayChange": 3951940
+      "price": 247.49,
+      "changePct": -1.17,
+      "quoteTs": "Nov 19, 2026",
+      "currentValue": 391226252.24,
+      "dayChange": -4631673.680000001
     },
     {
       "name": "第一资本金融",
@@ -451,11 +451,11 @@
       ],
       "shares": 1150000,
       "reportValue": 222030500,
-      "price": 178.66,
-      "changePct": -0.1,
-      "quoteTs": "Nov 20, 2026 7:49 PM ET",
-      "currentValue": 205459000,
-      "dayChange": -207000
+      "price": 181.74,
+      "changePct": -1.39,
+      "quoteTs": "Nov 19, 2026",
+      "currentValue": 209001000,
+      "dayChange": -2944000
     },
     {
       "name": "梅西百货",
@@ -470,11 +470,11 @@
       ],
       "shares": 7538800,
       "reportValue": 171658476,
-      "price": 23.3322,
-      "changePct": 0.63,
-      "quoteTs": "Nov 20, 2026 7:49 PM ET",
-      "currentValue": 175896789.36,
-      "dayChange": 1109711.3599999999
+      "price": 23.185,
+      "changePct": -2.38,
+      "quoteTs": "Nov 20, 2026",
+      "currentValue": 174787078,
+      "dayChange": -4259422
     },
     {
       "name": "NVR",
@@ -489,11 +489,11 @@
       ],
       "shares": 11112,
       "reportValue": 68387582,
-      "price": 5461,
-      "changePct": -0.19,
-      "quoteTs": "Nov 20, 2026 7:49 PM ET",
-      "currentValue": 60682632,
-      "dayChange": -118009.43999999999
+      "price": 5495.2,
+      "changePct": -2.37,
+      "quoteTs": "Nov 19, 2026",
+      "currentValue": 61062662.4,
+      "dayChange": -1481007.36
     },
     {
       "name": "杰富瑞",
@@ -508,11 +508,11 @@
       ],
       "shares": 433558,
       "reportValue": 19826607,
-      "price": 39.67,
-      "changePct": 1.87,
-      "quoteTs": "Nov 20, 2026 7:49 PM ET",
-      "currentValue": 17199245.86,
-      "dayChange": 316497.33999999997
+      "price": 40.875,
+      "changePct": -3.57,
+      "quoteTs": "Nov 19, 2026",
+      "currentValue": 17721683.25,
+      "dayChange": -656840.37
     },
     {
       "name": "霍顿房屋",
@@ -527,11 +527,11 @@
       ],
       "shares": 3564,
       "reportValue": 487021,
-      "price": 145.51,
-      "changePct": -0.03,
-      "quoteTs": "Nov 20, 2026 7:49 PM ET",
-      "currentValue": 518597.63999999996,
-      "dayChange": -142.56
+      "price": 142.69,
+      "changePct": -1.18,
+      "quoteTs": "Nov 19, 2026",
+      "currentValue": 508547.16,
+      "dayChange": -6058.8
     }
   ]
 }
