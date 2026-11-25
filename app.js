@@ -293,5 +293,16 @@
       });
   }
 
-  load();
+  // 门禁：未解锁时不加载数据；解锁事件触发后再加载，避免 ECharts 在隐藏容器内算成 0 宽
+  var gateEl = document.getElementById('gate');
+  if (gateEl) {
+    // gate.js 在 app.js 之前执行：若此前已解锁，事件已派发过，这里直接补加载
+    if (gateEl.style.display === 'none') {
+      load();
+    } else {
+      document.addEventListener('gate:unlocked', function () { load(); });
+    }
+  } else {
+    load();
+  }
 })();

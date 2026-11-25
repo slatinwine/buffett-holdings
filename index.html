@@ -8,6 +8,35 @@
 <script src="https://cdn.jsdelivr.net/npm/echarts@5/dist/echarts.min.js"></script>
 </head>
 <body>
+
+<!-- 门禁：扫码关注公众号 → 回复关键词拿口令 → 输入解锁 -->
+<div id="gate">
+  <div class="gate-card">
+    <div class="gate-eyebrow">BERKSHIRE HATHAWAY · PORTFOLIO TRACKER</div>
+    <h1 class="gate-title">巴菲特持仓分析</h1>
+    <p class="gate-lead">伯克希尔 13F 季度持仓 + 每日行情估值</p>
+
+    <div class="gate-qr-box">
+      <img id="gateQr" class="gate-qr" src="qrcode.jpg" alt="公众号二维码">
+    </div>
+
+    <ol class="gate-steps">
+      <li>微信扫码关注公众号 <strong id="gateAccount">公众号</strong></li>
+      <li>回复关键词 <strong class="gate-kw" id="gateKeyword">口令</strong> 获取访问口令</li>
+      <li>在下方输入口令解锁完整分析</li>
+    </ol>
+
+    <div class="gate-form">
+      <input id="gatePass" type="text" autocomplete="off" placeholder="请输入访问口令" maxlength="40">
+      <button id="gateBtn" type="button">解锁查看</button>
+    </div>
+    <div id="gateErr" class="gate-err" role="alert"></div>
+
+    <p class="gate-foot">解锁后 <span id="gateDays">30</span> 天内无需重复输入 · 数据仅供学习参考</p>
+  </div>
+</div>
+
+<div id="appWrap" style="visibility:hidden">
 <div class="wrap">
 
   <header>
@@ -40,11 +69,14 @@
   </footer>
 
 </div>
+</div>
+
+<script src="gate-config.js"></script>
+<script src="gate.js"></script>
 <script src="app.js"></script>
 <!-- 不蒜子访客统计：按 IP 去重统计独立访客(UV)与访问量(PV)，零配置、GitHub Pages 原生支持 -->
 <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
 <script>
-  // 若 8 秒内统计服务未响应（网络问题/被拦截），隐藏统计条以免影响主应用
   setTimeout(function () {
     var uv = document.getElementById('busuanzi_value_site_uv');
     if (uv && (uv.textContent === '—' || uv.textContent === '')) {
