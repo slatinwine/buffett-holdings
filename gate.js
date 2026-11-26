@@ -1,6 +1,9 @@
 /* 巴菲特持仓分析 · 口令门禁
- * 静态站点无法读取微信关注状态，故采用「扫码关注 → 回复关键词拿口令 → 输入解锁」。
- * 口令正确后用 localStorage 记住，rememberDays 天后过期。
+ * 静态站点无法读取微信关注状态，故采用「扫码关注 → 公众号自动回复 → 专属链接/口令解锁」。
+ * 两种解锁方式：
+ *   1) 公众号自动回复里放带 key 参数的专属链接，点进来自动解锁（推荐）
+ *   2) 手动输入口令
+ * 解锁后用 localStorage 记住，rememberDays 天后过期。
  */
 (function () {
   'use strict';
@@ -20,6 +23,27 @@
       }
       return true;
     } catch (e) { return false; }
+  }
+
+  // 专属链接解锁：URL 里带 ?key=<口令> 或 #<口令>，命中则自动解锁并清掉地址里的口令
+  var urlKey = (function () {
+    var q = null;
+    try {
+      var m = location.search.match(/[?&]key=([^&]+)/);
+      if (m) q = decodeURIComponent(m[1]);
+      if (!q && location.hash && location.hash.length > 1) q = decodeURIComponent(location.hash.slice(1));
+    } catch (e) {}
+    return q;
+  })();
+
+  function clearUrlKey() {
+    try {
+      var parts = location.search.replace(/^\?/, '').split('&').filter(function (p) {
+        return p && p.indexOf('key=') !== 0;
+      });
+      var clean = location.pathname + (parts.length ? '?' + parts.join('&') : '');
+      history.replaceState(null, '', clean);
+    } catch (e) {}
   }
 
   function unlock() {
@@ -53,6 +77,7 @@
     var days = document.getElementById('gateDays');
     if (days) days.textContent = DAYS;
 
+    if (urlKey && urlKey === PASSWORD) { clearUrlKey(); unlock(); return; }
     if (isUnlocked()) { unlock(); return; }
 
     var input = document.getElementById('gatePass');
